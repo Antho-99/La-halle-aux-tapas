@@ -1,0 +1,81 @@
+.card {
+	display: flex;
+	background-color: white;
+	padding: 30px;
+	box-shadow: 0px 10px 30px #F15A23;
+	border-radius: 4px;
+	align-items: center;
+	justify-content: space-between;
+	margin: 40px 10px;
+}
+
+.card img {
+	width: 300px;
+	border-radius: 4px;
+}
+
+.card p {
+	padding-left: 24px;
+	text-align: justify;
+	font-size: 16px;
+}
+
+
+
+
+.gridcard {
+	display: flex;
+	background-color: white;
+	padding: 20px;
+	border-radius: 4px;
+	align-items: center;
+	box-shadow: 0px 10px 30px #F15A23;
+	justify-content: center;
+	margin: 10px 10px;
+	flex-basis: 250px;
+	flex-grow: 1;
+}
+
+.gridcard img {
+	width: 200px;
+	border-radius: 4px;
+}
+
+
+.gridcard h2 {
+	padding-left: 5px;
+}
+
+
+
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 40px 10px;
+}	
+
+
+
+
+.othercard {
+	background-color: white;
+	padding: 15px;
+	box-shadow: 0px 10px 30px #F15A23;
+	border-radius: 4px;
+	margin: 40px 10px;
+	text-align: justify;
+}
+
+
+
+
+.imgcard {
+	display: flex;
+	background-color: #FCEED6;
+	padding: 15px;
+	border-radius: 4px;
+	align-items: center;
+	justify-content: center;
+	margin: 40px 10px;
+}
